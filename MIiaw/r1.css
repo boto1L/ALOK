@@ -1,0 +1,42 @@
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background: rgb(80, 132, 209);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px); 
+}
+
+
+
+h2{
+    text-align: center;
+}
+.hero-section {
+ background-image: url('langit.jpg');
+ background-size: cover;
+ background-position: center;
+ border-radius: 10px;
+ padding: 80px 20px;
+ text-align: center;
+    color: white;
+}
+
+.raffo {
+    font-family: 'Arial', sans-serif;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+}
